@@ -1,0 +1,346 @@
+body{
+	background-image:url(../img/17.jpg);
+	 overflow: hidden;
+	 background-size: cover;
+
+}
+
+#page{
+	 border: 10px groove rgb(230, 179, 255);
+	 box-shadow: 5px 3px black;
+	 border-radius: 20px;
+	 width: 60%;
+	 height: 500px;
+	 margin:5% auto;
+	 background-color:rgba(255, 255, 255,0.5);
+	 box-sizing: border-box;
+	 text-overflow: hidden;
+	 position: relative;
+}
+.bubble{
+	cursor: pointer;
+	margin-left:-70px;
+}
+.bubble>p{
+	border:1px solid white;
+	border-radius: 100%;
+	background-color: #4ddbff;
+	text-align:center;
+	font-size: 1em;
+	box-sizing: border-box;
+	width: 90px;
+	overflow-x: hidden;
+	height: 90px;
+	padding-top: 4%;
+	padding-right:0.7%;
+	font-style: italic;
+	color: rgb(255, 102, 26);
+}
+.formul>p{
+	position: absolute;
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	top: 400px;
+	left: 80px;
+	border:1px solid white;
+	border-radius: 8px 25PX 8PX 25PX;
+	width: 20%;
+	height: 8%;
+	text-align: center;
+	font-size: 2em;
+	box-sizing: border-box;
+	font-style: italic;
+	color: rgb(255, 102, 0);
+	background-color: rgb(0, 230, 230);
+}
+
+#button{
+	width: 12%;
+	height: 7%;
+	background-color: rgb(0, 230, 230);
+	box-sizing: border-box;
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	 font-size: 1.5em;
+	border: 1px solid #12a98cff;
+	position: absolute;
+	border-radius:17% 7%;
+	top:420px;
+	right:40px; 
+	color: rgb(255, 102, 0);
+	cursor: pointer;
+}
+#button1{
+	width: 15%;
+	height: 7%;
+	background-color: rgb(0, 230, 230);
+	box-sizing: border-box;
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	 font-size: 1.5em;
+	border: 1px solid #12a98cff;
+	position: absolute;
+	border-radius:17% 7%;
+	top:370px;
+	float: right;
+	right:4%; 
+	color: rgb(255, 102, 0);
+	cursor: pointer;
+}
+#scores{
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	width:9%;
+	height: 14%;
+	background-color: rgb(0, 230, 230);
+	border:1px solid 0; 
+	border-radius: 50%;
+	text-align: center;
+	padding:2.5% 2% 2% 2%;
+	box-sizing: border-box;
+	border:1px solid white;
+	font-size:1.5em;
+	color: rgb(255, 102, 0);
+}
+#myBtn{
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	width:9%;
+	height: 14%;
+	background-color: rgb(0, 230, 230);
+	border:1px solid 0; 
+	border-radius: 50%;
+	text-align: center;
+	padding:2.5% 7.5% 2% 2%;
+	box-sizing: border-box;
+	border:1px solid white;
+	font-size:1.5em;
+	color: rgb(255, 102, 0);
+	float: right;
+	position: relative;
+	top: -70px;
+}
+#button3{
+	width: 18%;
+	height: 7%;
+	background-color:rgb(0, 230, 230);
+	box-sizing: border-box;
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	 font-size: 1.5em;
+	border: 1px solid #12a98cff;
+	position: absolute;
+	border-radius:17% 7%;
+	top:320px;
+	right: 4%; 
+	color: rgb(255, 102, 0);
+	cursor:pointer;
+}
+
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    left: 230px;
+    z-index: 1; 
+    width: 60%;
+	height: 550px;
+	background-color:rgba(255, 255,255,0.9);
+	border:1px solid white;
+	border-radius: 20px;
+	top: 60px;
+
+}
+#img{
+	width: 50%;
+	height: 60%;
+	background-image: url(../img/35.gif);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	z-index: 1;
+	position: relative;
+	left: 50px;
+	top: -50px;
+}
+.modal-content{
+			text-align: center;
+			 font-weight: bold;
+			 font-style: italic;
+			 font-variant-caps: all-petite-caps;
+			height: 300px;
+			text-align: center;
+			font-size: 1.5em;
+			padding: 3%;
+			padding-left: 3%;
+			color:rgb(122, 0, 153);
+			box-sizing: border-box;
+}
+#button4{
+			box-sizing: border-box;
+			text-align: center;
+			 font-weight: bold;
+			 font-style: italic;
+			 font-variant-caps: all-petite-caps;
+			 font-size: 1em;
+			color:rgb(122, 0, 153);
+			cursor: pointer;
+			padding:5px;
+			width:10%;		 
+			 background-color: white;
+			 outline: none;
+			 border:none;
+			 border-radius: 20px 2px;
+			 margin-top: 4%;
+
+}
+.modal-footer {
+    padding: 2px 16px;
+    background-color:rgba(51, 0, 51,0.6);
+    height: 100px;
+  	border-radius:3px 20px ;
+  	position: relative;
+  	top: -70px;
+
+}
+.modal-header {
+    padding: 2px 16px;
+     background-color:rgba(51, 0, 51,0.6);
+    color: white;
+    border-radius: 20px 3px;
+}
+
+
+
+
+#mo1{
+		position: relative;
+		/*animation: example 2s linear  ;*/
+		overflow-y: hidden;
+		top:70px;
+		bottom:50px;
+		left:72%;
+		right: 90%;
+		animation-fill-mode: forwards;
+
+
+}
+@keyframes example {
+	0%{
+		top: -90px;
+
+	}
+	100%{
+		top:70px;
+		bottom:50px;
+		left:72%;
+		right: 90%;
+		
+		
+	}
+}
+#mo2{
+	position: relative;
+	/*animation: exampl 2s linear ;*/
+	overflow-y: hidden;
+	top:20px;
+		left: 500px;
+		right:600px;
+		opacity: 1;
+	 animation-fill-mode: forwards;
+}
+@keyframes exampl {
+	0%{
+		top: -120px;
+
+	}
+	100%{
+		top:20px;
+		left: 500px;
+		right:600px;
+		opacity: 1;
+	}
+}
+#mo3{
+	position: relative;
+	/*animation: examp 2s linear ;*/
+	overflow-y: hidden;
+	top:-140px;
+		bottom:30px;
+		left: 220px;
+	 animation-fill-mode: forwards;
+}
+@keyframes examp {
+	0%{
+		top: -300px;
+		left: 45px;
+
+	}
+	100%{
+		top:-140px;
+		bottom:30px;
+		left: 220px;
+	}
+}
+#mo4{
+	position: relative;
+	/*animation: exam 4s linear;*/
+	overflow-y: hidden;
+	top:-220px;
+		left: 400px;
+		right:680px;
+	 animation-fill-mode: forwards;
+}
+@keyframes exam {
+	0%{
+		top: -450px;
+
+	}
+	100%{
+		top:-220px;
+		left: 400px;
+		right:680px;
+	}
+}
+#mo5{
+	position: relative;
+	/*animation: exa 2s linear;*/
+	overflow-y: hidden;
+	top:-300px;
+		left: 300px;
+	 animation-fill-mode: forwards;
+}
+@keyframes exa {
+	0%{
+		top: -700px;
+
+	}
+	100%{
+		top:-300px;
+		left: 300px;
+	}
+}
+#head{
+	text-align: center;
+	color: rgb(255, 102, 0);
+	position: relative;
+	top: 50%;
+	left: 40%;
+}
+
+
+ @media only screen and (max-width: 500px) {
+ 		
+}

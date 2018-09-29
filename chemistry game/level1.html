@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/level.css">
+	<link rel="stylesheet" type="text/css" href="CSS/animate.css">
+	<link rel="stylesheet" type="text/css" href="CSS/hover.css">
+	<link rel="shortcut icon" 16x16 href="img/17.jpg">
+	<meta charset="utf-8">
+	<title>چالش کیمیاوی</title>
+</head>
+<body>
+			<div id="myModal" class="modal">
+			 <div class="modal-content">
+			 	<div class="modal-header">
+     			<h2>رهنمای برنامه</h2>
+    			</div>
+
+			 	<p>
+			 		<bdi>
+				سلام بر شما کاربر   عزیز <br>
+				در این  مرحله شما با  قرار دادن هر یک از عناصر به موقعیت درست آن میتوان امتیاز بدست آورید ودر جدول دوره عناصر  ٬عناصر نظر به نمبر اتومی  خویش   ترتیب شده اند وشما با فهمیدن نمبر اتومی به آسانی میتوانید عناصر را به موقعیت درست آن ببرید  .<br><br>     موفق باشید😊😊😊 
+			
+			</bdi>
+			</p>
+			<div id="img"></div>
+			<div class="modal-footer">
+     			<button id="button4" class="close">خروج</button>
+    		</div>
+			 	
+			 </div>
+		</div>
+
+
+
+	<div id="container">
+	<div id="image">
+		<div class="empty" id = "lithium" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="lithium"></div>
+		<div class="empty" id="rubidium"  ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="rubidium"></div>
+		<div class="empty" id="francium" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="francium"></div>
+		<div class="empty" id="magnesium" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="magnesium"></div>
+		<div class="empty" id="barium" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="barium"></div>
+		<div class="empty" id="boron" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="boron"></div>
+		<div class="empty" id="gallium" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="gallium"></div>
+		<div class="empty" id="thallium" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="thallium"></div>
+		<div class="empty" id="silicon" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="silicon"></div>
+		<div class="empty" id="tin" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="tin"></div>
+		<div class="empty" id="phosphorus" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="phosphorus"></div>
+		<div class="empty" id="bismuth" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="bismuth"></div>
+		<div class="empty" id="oxygen" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="oxygen"></div>
+		<div class="empty" id="selenium" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="selenium"></div>
+		<div class="empty" id="tellurium" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="tellurium"></div>
+		<div class="empty" id="chlorine" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="chlorine"></div>
+		<div class="empty" id="iodine" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="iodine"></div>
+		<div class="empty" id="neon" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="neon"></div>
+		<div class="empty" id="krypton" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="krypton"></div>
+		<div class="empty" id="radon" ondragover="allowDrop(event)" ondrop="drop(event)" data-elem="radon"></div>
+	</div>
+	<div id = "elems">
+		<div class="element animated flipInY" id="dragte" ondragstart="takeId(event)" draggable = "true" data-elem="tellurium" >
+			<p class="para">52<br>Te<br>127.60<br>Tellurium</p>
+		</div>
+		<div class="element animated flipInY" id="dragli" ondragstart="takeId(event)" draggable = "true" data-elem="lithium">
+			<p class="para">3<br>Li<br>6.941<br>Lithium</p>
+		</div>
+		<div class="element animated flipInY" id="dragba" ondragstart="takeId(event)" draggable = "true" data-elem="barium">
+			<p class="para">56<br>Ba<br>137.327<br>Barium</p>
+		</div>
+		<div class="element animated flipInY" id="dragrb" ondragstart="takeId(event)" draggable = "true" data-elem="rubidium">
+			<p class="para">37<br>Rb<br>85.4678<br>Rubidium</p>
+		</div>
+		<div class="element animated flipInY" id="dragb" ondragstart="takeId(event)" draggable = "true" data-elem="boron">
+			<p class="para">5<br>B<br>10.811<br>Boron</p>
+		</div>
+		<div class="element animated flipInY" id="dragga" ondragstart="takeId(event)" draggable = "true" data-elem="gallium">
+			<p class="para">31<br>Ga<br>69.723<br>Gallium</p>
+		</div>
+		<div class="element animated flipInY" id="dragmg" ondragstart="takeId(event)" draggable = "true" data-elem="magnesium">
+			<p class="para">12<br>Mg<br>24.3050<br>Magnesium</p>
+		</div>
+		<div class="element animated flipInY" id="dragti" ondragstart="takeId(event)" draggable = "true" data-elem="thallium">
+			<p class="para">81<br>Ti<br>204.3833<br>Thallium</p>
+		</div>
+		<div class="element animated flipInY" id="dragbi" ondragstart="takeId(event)" draggable = "true" data-elem="bismuth">
+			<p class="para">83<br>Bi<br>208,98037<br>Bismuth</p>
+		</div>
+		<div class="element animated flipInY" id="dragsn" ondragstart="takeId(event)" draggable = "true" data-elem="tin">
+			<p class="para">50<br>Sn<br>118.710<br>Tin</p>
+		</div>
+		<div class="element animated flipInY" id="dragp" ondragstart="takeId(event)" draggable = "true" data-elem="phosphorus">
+			<p class="para">15<br>P<br>30.973762<br>Phosphorus</p>
+		</div>
+		<div class="element animated flipInY" id="dragsi" ondragstart="takeId(event)" draggable = "true" data-elem="silicon">
+			<p class="para">14<br>Si<br>28.0855<br>Silicon</p>
+		</div>
+		<div class="element animated flipInY" id="dragfr" ondragstart="takeId(event)" draggable = "true" data-elem="francium">
+			<p class="para">87<br>Fr<br>223.0197<br>Francium</p>
+		</div>
+		<div class="element animated flipInY" id="drago" ondragstart="takeId(event)" draggable = "true" data-elem="oxygen">
+			<p class="para">8<br>O<br>15.9994<br>Oxygen</p>
+		</div>
+		<div class="element animated flipInY" id="dragrn" ondragstart="takeId(event)" draggable = "true" data-elem="radon">
+			<p class="para">86<br>Rn<br>222.0176<br>Radon</p>
+		</div>
+		<div class="element animated flipInY" id="dragcl" ondragstart="takeId(event)" draggable = "true" data-elem="chlorine">
+			<p class="para">17<br>Cl<br>35.4537<br>Chlorine</p>
+		</div>
+		<div class="element animated flipInY" id="dragi" ondragstart="takeId(event)" draggable = "true" data-elem="iodine">
+			<p class="para">53<br>I<br>126.90447<br>Iodine</p>
+		</div>
+		<div class="element animated flipInY" id="dragne" ondragstart="takeId(event)" draggable = "true" data-elem="neon">
+			<p class="para">10<br>Ne<br>20.1797<br>Neon</p>
+		</div>
+		<div class="element animated flipInY" id="dragse" ondragstart="takeId(event)" draggable = "true" data-elem="selenium">
+			<p class="para">34<br>Se<br>78.96<br>Selenium</p>
+		</div>
+		<div class="element animated flipInY" id="dragkr" ondragstart="takeId(event)" draggable = "true" data-elem="krypton">
+			<p class="para">36<br>Kr<br>83.80<br>Krypton</p>
+		</div>
+		<a href="index.html"><button  id ="button1">صفحه اصلی</button></a>
+		<button id="myBtn" onclick="changepage()">رهنمایی</button>
+		<a href="level1.html"><button id="button3">شروع مجدد</button></a>
+		
+		<div id="button2">امتیاز </div>
+
+	</div>
+</div>
+	<script src="javascript/level1.js"></script>
+</body>
+</html>

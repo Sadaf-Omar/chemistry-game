@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/index.css">
+	<link rel="stylesheet" type="text/css" href="CSS/animate.css">
+	<link rel="stylesheet" type="text/css" href="CSS/hover.css">
+	<link rel="shortcut icon" 16x16 href="img/17.jpg">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<title>چالش کیمیاوی</title>
+</head>
+<body>
+	<div class="container">
+		<a href="level1.html">
+			<div id="level1" class="hvr-glow">
+				<p>آسان</p>
+				
+			</div>
+		</a>
+		
+		<a href="level2.html">
+			<div id="level2">
+				<p>متوسط</p>		
+			</div>
+		</a>
+		
+		<a href="level3A.html">
+			<div id="level3">
+				<p>مشکل</P>	
+					
+			</div>
+		</a>
+		
+		<a>
+			<div id="myBtn" class="about">
+				<p>درباره </p>				
+			</div>
+		</a>
+		</div>
+		<div id="myModal" class="modal">
+			 <div class="modal-content">
+			 	<div class="modal-header">
+     			<h2>رهنمای برنامه</h2>
+    			</div>
+			 	<p>
+			 		<bdi>
+			 		من طراح این برنامه   صدف  الکوثر محصل رشته کمپیوتر ساینس در بخش انجینری  نرم افزار و همچنین در مکتب کد نویسی  (CTI) در بخش ویب دیزاینینگ درس میخوانم .ایده این برنامه برگرفته  از شعار در زندگی  من است :پیودن هزاران کیلو متر تنها با یک قدم شروع میشود .اولین قدم شما لحظه است  شما صفحه را ورق میزنید. خواستم با طرح وساخت این برنامه آموزیشی قدمک های کوچک ام را بردارم  انسان با همین قدمک ها به قله  های بزرگ دست پیدا میکند 
+			 		<br><br>
+			 		درطرح ودیزاین این برنامه از زبان های :<br>
+			 		HTML
+			 		_HTML5
+			 		_CSS
+			 		_CSS3
+			 		_JAVASCRIPT
+			 		استفاده  گردیده .<br><br> وجا دارد تشکری کرد از اپلیکیشن  BYJU'S برای دیزاین عکسهای پشت زمینه <br>
+			 		نظریات خود را به  اشتراک بگزارید
+					</bdi>
+				</p>
+				
+					<a href="https://twitter.com/sadaf_alkowsar" style="text-decoration: none; color: rgb(122,0,153);" class="hvr-bounce-in">
+						<i style="font-size: 40px;" class="fa fa-twitter-square" id="i"></i>
+					</a>
+					<a href="https://www.facebook.com/sparkling.sadaf.9" style="text-decoration: none; color: rgb(122,0,153);" class="hvr-bounce-in">
+						<i  style="font-size: 40px;"class="fa fa-facebook-square" id="i"></i>
+					</a>
+					<a href="https://t.me/SKOWSARA" style="text-decoration: none; color: rgb(122,0,153);" class="hvr-bounce-in">
+						<i  style="font-size: 40px; " class="fa  fa-telegram" id="i"></i>
+					</a>
+				
+			<div class="modal-footer">
+     			<button id="button4" class="close">خروج</button>
+    		</div>
+			 	</div>
+			 </div>
+		</div>
+	
+	<script type="text/javascript">
+		
+var modal = document.getElementById('myModal');
+
+var btn = document.getElementById("myBtn");
+
+var con = document.getElementsByClassName("container")[0];
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+    modal.style.display = "block";
+    con.style.display= "none";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+    con.style.display= "block";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+
+    }
+}
+
+function change(event) {
+	event.target.parentNode.style.display ="none";
+
+}
+
+</script>
+</body>
+</html>

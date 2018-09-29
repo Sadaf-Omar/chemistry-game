@@ -1,0 +1,323 @@
+body{
+	background-image: url(../img/19.jpg);
+		overflow-y:	 hidden; 
+}
+#container{
+	margin-left:5%;
+	width: 90%;
+	height:600px;
+	box-sizing: border-box;
+	overflow-y:	 hidden; 
+	border: 5px solid white;
+	border-radius: 20px;
+	background:linear-gradient(rgba(213, 128, 255,0.6),rgba(255, 128, 255,0.6),rgba(217, 102, 255,0.6),rgba(170, 128, 255,0.6),rgba(255, 128, 255,0.6),rgba(170, 128, 255,0.6),
+	rgba(255, 128, 255,0.6),rgba(213, 128, 255,0.6),rgba(217, 102, 255,0.6));
+
+}
+
+#image{
+	float: left;
+	width: 76%;
+	height: 100%;
+	margin-right: 2%;
+	background-image: url(../img/2.jpg);
+	border-radius: 25px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#elems{
+	width: 22%;
+	float: left;
+	position: relative;
+	top: 20px;
+	}
+.element{
+	margin: 3px;
+	cursor:pointer;
+	border:3px solid black;
+	height: 60px;
+	width: 40px;
+	float: left;
+	box-shadow: 10px 10px 5px grey;
+}
+.para{
+	font-size: 0.6em;
+	text-align: center;
+
+}
+.empty{
+	width: 4.2%;
+	height: 50px;
+	border: 3px solid black;
+}
+#lithium{
+	position: relative;
+	top: 17%;
+	left: 4%;
+
+}
+#rubidium{
+	position: relative;
+	top: 37%;
+	left: 4%;
+
+}
+#francium{
+	position: relative;
+	top: 47%;
+	left: 4%;
+
+}
+#magnesium{
+	position: relative;
+	top: -9px;
+	left: 9.3%;
+
+}
+#barium{
+	position: relative;
+	top: 19%;
+	left: 9.3%;
+
+}
+#boron{
+	position: relative;
+	top: -179px;
+	left: 65.6%;
+
+}
+#gallium{
+	position: relative;
+	top: -120px;
+	left: 65.6%;
+
+}
+#thallium{
+	position: relative;
+	top: -59px;
+	left: 65.6%;
+
+}
+#silicon{
+	position: relative;
+	top: -285px;
+	left: 70.3%;
+
+}
+#tin{
+	position: relative;
+	top: -230px;
+	left: 70.3%;	
+
+}
+#phosphorus{
+	position: relative;
+	top: -395px;
+	left: 75.5%;
+
+}
+#bismuth{
+	position: relative;
+	top: -285px;
+	left: 75.5%;
+
+}
+#oxygen{
+	position: relative;
+	top: -570px;
+	left: 81%;
+
+}
+#selenium{
+	position: relative;
+	top: -510px;
+	left: 81%;
+
+}
+#tellurium{
+	position: relative;
+	top: -509px;
+	left: 81%;
+
+}
+#chlorine{
+	position: relative;
+	top: -680px;
+	left: 86%;
+
+}
+#iodine{
+	position: relative;
+	top: -620px;
+	left:86%;
+
+}
+#neon{
+	position: relative;
+	top: -850px;
+	left:91%;
+
+}
+#krypton{
+	position: relative;
+	top: -790px;
+	left:91%;
+
+}
+#radon{
+	position: relative;
+	top: -730px;
+	left:91%;
+
+}
+#myBtn{
+	border:1px solid 0; 
+	float: right;
+	cursor: pointer;
+	width: 50%;
+	height: 7%;
+	background-color:rgb(0, 204, 204);
+	box-sizing: border-box;
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	 font-size: 1.5em;
+	position: relative;
+	border-radius:20px 6px;
+	top: 100px;
+	right:8%; 
+	color: rgb(255, 51, 119);
+}
+#button1{
+	width: 45%;
+	height: 7%;
+	background-color:rgb(0, 204, 204);
+	box-sizing: border-box;
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	 font-size: 1.5em;
+	 position: relative;
+	border: 1px solid none;
+	position: relative;
+	border-radius:20px 6px;
+	top:100px;
+	right: 10px; 
+	color:rgb(255, 51, 119);
+	cursor: pointer;
+}
+#button2{
+	width: 50%;
+	height: 7%;
+	background-color:rgb(0, 204, 204);
+	box-sizing: border-box;
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	 font-size: 1.5em;
+	border: 1px solid white;
+	position:relative;
+	border-radius:20px 6px;
+	right:-50px; 
+	color:rgb(255, 51, 119);
+	cursor:pointer;
+	padding: 0.5%;
+	top:-13px;
+	
+}
+
+#button3{
+	width: 35%;
+	height: 7%;
+	background-color:rgb(0, 204, 204);
+	box-sizing: border-box;
+	text-align: center;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-variant-caps: all-petite-caps;
+	 font-size: 1.5em;
+	border: 1px solid none;
+	position: relative;
+	border-radius:20px 6px;
+	top: 110px;
+	right:-60px; 
+	color:rgb(255, 51, 119);
+	cursor:pointer;
+}
+.modal {
+    display: none; 
+    position: fixed;
+    left: 230px;
+    z-index: 1; 
+    width: 60%;
+	height: 550px;
+	background-color:rgba(255, 255,255,0.9);
+	border:1px solid white;
+	border-radius: 20px;
+	top: 60px;
+
+}
+#img{
+	width: 50%;
+	height: 60%;
+	background-image: url(../img/35.gif);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	z-index: 1;
+	position: relative;
+	left: 50px;
+	top: -50px;
+}
+.modal-content{
+			text-align: center;
+			 font-weight: bold;
+			 font-style: italic;
+			 font-variant-caps: all-petite-caps;
+			height: 300px;
+			text-align: center;
+			font-size: 1.5em;
+			padding: 3%;
+			padding-left: 3%;
+			color:rgb(122, 0, 153);
+			box-sizing: border-box;
+}
+#button4{
+			box-sizing: border-box;
+			text-align: center;
+			 font-weight: bold;
+			 font-style: italic;
+			 font-variant-caps: all-petite-caps;
+			 font-size: 1em;
+			color:rgb(122, 0, 153);
+			cursor: pointer;
+			padding:5px;
+			width:10%;		 
+			 background-color: white;
+			 outline: none;
+			 border:none;
+			 border-radius: 20px 2px;
+			 margin-top: 4%;
+
+}
+.modal-footer {
+    padding: 2px 16px;
+    background-color:rgba(51, 0, 51,0.6);
+    height: 100px;
+  	border-radius:3px 20px ;
+  	position: relative;
+  	top: -70px;
+
+}
+.modal-header {
+    padding: 2px 16px;
+     background-color:rgba(51, 0, 51,0.6);
+    color: white;
+    border-radius: 20px 3px;
+}
+
+ @media only screen and (max-width: 500px) {
+ 		
+}
